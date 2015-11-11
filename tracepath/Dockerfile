@@ -1,2 +1,2 @@
 FROM debian:jessie
-RUN apt-get update && apt-get install iputils-tracepath dnsutils
+RUN apt-get update && apt-get -y install iputils-tracepath dnsutils
